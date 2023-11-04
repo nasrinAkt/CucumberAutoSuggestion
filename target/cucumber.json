@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can select from auto suggestion",
+        "description": "",
+        "id": ";verify-user-can-select-from-auto-suggestion",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3206516100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open google application",
+            "match": {
+              "location": "StepClass.open_google_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5763166900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "search for bangalore",
+            "match": {
+              "location": "StepClass.search_for_bangalore()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "Auto.feature"
+  }
+]
